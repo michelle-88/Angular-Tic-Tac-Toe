@@ -1,0 +1,42 @@
+h1 {
+  @media screen and (max-width: 414px) {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+h2 {
+  @media screen and (max-width: 414px) {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+  }
+}
+
+button {
+  margin-bottom: 16px;
+  @media screen and (max-width: 414px) {
+    margin-bottom: 8px;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+
+  @media screen and (max-width: 414px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+app-square {
+  border: 1px solid gray;
+  height: 200px;
+
+  @media screen and (max-width: 414px) {
+    height: 150px;
+  }
+}
